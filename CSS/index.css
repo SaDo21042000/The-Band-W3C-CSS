@@ -1,0 +1,131 @@
+* {
+  font-family: "Lato", sans-serif;
+}
+.nav {
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.nav-father {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.nav-left__item-more {
+    color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: auto;
+  display: inline-block;
+}
+
+.nav-left__item-more:hover {
+
+}
+
+.nav-left__item-more-icon {
+    color: white;
+}
+
+.nav-left {
+  height: auto;
+}
+
+.nav-left__item {
+  height: auto;
+}
+
+.nav-left__item-link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: auto;
+  height: 100%;
+  padding: 12px 24px;
+  display: inline-block;
+}
+
+.nav-left__item:a {
+    display: inline-block;
+}
+
+.nav-left__item-link:hover {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: auto;
+  height: 100%;
+  padding: 12px 24px;
+  display: inline-block;
+  background-color: #ccc;
+}
+
+.nav-left__item-link:hover .nav-left__item-more {
+    background-color: #ccc;
+    color: black;
+    text-decoration: none;
+    border-color: #ccc;
+    outline: none;
+
+}
+
+.nav-left__item-link:hover .nav-left__item-more-icon {
+    color: black;
+}
+
+.nav-left__item-more {
+  background: black;
+  font-size: 20px;
+}
+
+/*.nav-left__item-more:hover {
+    background-color: #ccc;
+}*/
+
+.nav-left__item-drop {
+  display: inline-block;
+}
+
+.nav-left__item-drop:hover .nav-lef__item-drop-content {
+    
+    
+}
+
+.nav-lef__item-drop-content {
+  /*display: none;*/
+  position: absolute;
+  background-color: grey;
+  display: block;
+  left: 479px;
+  top: 48px;
+}
+
+.nav-left__item-drop-link {
+    display: block;
+    padding: 12px 24px;
+    
+}
+
+.nav-right {
+    height: 100%;
+}
+
+.nav-right__search {
+  color: white;
+  width: auto;
+  padding: 12px 24px;
+  height: 100%;
+}
+
+.nav-right__search:hover {
+  color: white;
+  width: auto;
+
+  padding: 12px 24px;
+  color: black;
+  background-color: #f44336;
+}
