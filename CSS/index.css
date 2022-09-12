@@ -1,5 +1,8 @@
 * {
   font-family: "Lato", sans-serif;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -148,3 +151,146 @@
   width: 100%;
   /*display: none;*/
 }
+
+.band-section {
+  display: flex;
+  justify-content: center;
+}
+
+.band-section__content {
+  width: 800px;
+}
+
+.band-section__title {
+  text-align: center;
+  font-size: 30px;
+}
+
+.band-section__subtitle {
+  text-align: center;
+  font-style: italic;
+  font-size: 15px;
+  color: #bdb1b1;
+ 
+
+}
+
+.band-section__script {
+  text-align: justify;
+  font-size: 15px;
+  line-height: 1.5;
+
+}
+
+.band-section__image {
+  display: flex;
+
+}
+
+.band-section__image-item {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.band-section__image-item-text {
+  text-align: center;
+ 
+}
+
+.band-section__image-item-image {
+  width: 60%;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  align-self: center;
+  
+}
+
+/* CSS TOUR START */
+.tour-container {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.tour {
+  width: 800px;
+}
+
+.tour h2 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+
+}
+
+.tour p {
+  text-align: center;
+  color: grey;
+}
+
+.tour-ticket__month {
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+  padding: 0px;
+  margin: 0px 8px;
+}
+
+.tour-ticket__month-item {
+  list-style-type: none;
+  border-bottom: 1px solid #ddd;
+  padding: 8px 16px;
+  color: grey;
+}
+
+.sold-out span {
+  padding: 0px 8px;
+  background-color: #f44336;
+  color: white;
+  border-radius: 2px;
+  margin-left: 5px;
+}
+
+.have-ticket span{
+  float: right;
+  background-color:black;
+  color: white;
+  padding: 0px 8px;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 16px;
+  line-height: 1.5;
+}
+
+.tour__ticket-card {
+  /*background-color: white;*/
+  display: flex;
+}
+
+.tour__ticket-card-item {
+  padding: 0px 8px;
+}
+
+.tour__ticket-card-item img {
+  width: 100%;
+  vertical-align: middle;
+  
+}
+.tour__ticket-card-item-info p {
+  color: black;
+}
+
+.tour__ticket-card-item-info {
+  background-color: white;
+}
+
+.tour-ticket__date {
+
+}
+
+.tour__ticket-button-buy {
+
+}
+
+
+/* CSS TOUR END */
