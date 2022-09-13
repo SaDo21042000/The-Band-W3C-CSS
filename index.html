@@ -127,7 +127,7 @@
                                 <p><b>New York</b></p>
                                 <p class="tour-ticket__date">Fri 27 Nov 2016</p>
                                 <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <div class="tour__ticket-button-buy">Buy Tickets</div>
+                                <button class="tour__ticket-button-buy">Buy Tickets</button>
                             </div>
                         </div>
                         <div class="tour__ticket-card-item">
@@ -136,7 +136,7 @@
                                 <p><b>New York</b></p>
                                 <p class="tour-ticket__date">Fri 27 Nov 2016</p>
                                 <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <div class="tour__ticket-button-buy">Buy Tickets</div>
+                                <button class="tour__ticket-button-buy">Buy Tickets</button>
                             </div>
                         </div>
                         <div class="tour__ticket-card-item">
@@ -145,7 +145,7 @@
                                 <p><b>New York</b></p>
                                 <p class="tour-ticket__date">Fri 27 Nov 2016</p>
                                 <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <div class="tour__ticket-button-buy">Buy Tickets</div>
+                                <button class="tour__ticket-button-buy">Buy Tickets</button>
                             </div>
                         </div>
                     </div>
@@ -154,8 +154,30 @@
 
             <!-- Ticket Modal -->
             <div class="ticket-modal">
+                <div class="ticket-modal__container">
+                    <header class="model-header">
+                        <span class="model-header__close">x</span>
+                        <h2>
+                            <i class="fa fa-suitcase w3-margin-right"></i> Tickets
+                        </h2>
+                    </header>
+                    <div class="model-content">
+                        <p>
+                            <label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label>
+                        </p>
+                        <input type="text" class="model-content__input" placeholder="How many?">
+                        <p>
+                            <label><i class="fa fa-user"></i> Send To</label>
+                        </p>
+                        <input type="text" class="model-content__input" placeholder="Enter email">
+                        <button class="model-content__btn-pay">Pay <i class="fa fa-check"></i></button>
+                        <button class="model-content__btn-close">Close <i class="fas fa-times"></i></button>
+                        <p class="model-content__support">Need <a href="youtube.com">help?</a></p>
+                    </div>
+                </div>
 
             </div>
+
 
         </div>
 
@@ -206,6 +228,7 @@
                 }
             }
         </script>
+        <script src="./index.js"></script>
 
 
 

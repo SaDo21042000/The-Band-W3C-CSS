@@ -171,31 +171,26 @@
   font-style: italic;
   font-size: 15px;
   color: #bdb1b1;
- 
-
 }
 
 .band-section__script {
   text-align: justify;
   font-size: 15px;
   line-height: 1.5;
-
 }
 
 .band-section__image {
   display: flex;
-
 }
 
 .band-section__image-item {
- display: flex;
- flex-direction: column;
- justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .band-section__image-item-text {
   text-align: center;
- 
 }
 
 .band-section__image-item-image {
@@ -203,7 +198,6 @@
   margin-bottom: 16px;
   border-radius: 4px;
   align-self: center;
-  
 }
 
 /* CSS TOUR START */
@@ -215,18 +209,19 @@
 
 .tour {
   width: 800px;
+  padding: 64px 16px;
 }
 
 .tour h2 {
   text-align: center;
   color: white;
   font-size: 30px;
-
 }
 
-.tour p {
+div.tour p:only-of-type {
   text-align: center;
   color: grey;
+  padding: 12px 24px;
 }
 
 .tour-ticket__month {
@@ -251,9 +246,9 @@
   margin-left: 5px;
 }
 
-.have-ticket span{
+.have-ticket span {
   float: right;
-  background-color:black;
+  background-color: black;
   color: white;
   padding: 0px 8px;
   border-radius: 50%;
@@ -274,7 +269,6 @@
 .tour__ticket-card-item img {
   width: 100%;
   vertical-align: middle;
-  
 }
 .tour__ticket-card-item-info p {
   color: black;
@@ -282,15 +276,142 @@
 
 .tour__ticket-card-item-info {
   background-color: white;
+  padding: 0px 16px;
+}
+
+/* css selector */
+div.tour__ticket-card-item-info p:nth-child(1) {
+  padding: 15px 0px;
+}
+
+div.tour__ticket-card-item-info p:nth-child(2) {
+  padding: 15px 0px;
+  color: grey;
+}
+
+div.tour__ticket-card-item-info p:nth-child(3) {
+  padding: 15px 0px;
+}
+
+div.tour__ticket-card-item-info button:only-of-type {
+  margin-bottom: 16px;
+  padding: 8px 16px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+div.tour__ticket-card-item-info button:only-of-type:hover {
+  margin-bottom: 16px;
+  padding: 8px 16px;
+  background-color: #ccc;
+  color: black;
+  border: none;
 }
 
 .tour-ticket__date {
-
 }
 
 .tour__ticket-button-buy {
+}
+/* CSS TOUR END */
 
+/*CSS TICKET MODAL START*/
+.ticket-modal {
+  position: fixed;
+  z-index: 3;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  padding-top: 100px;
+}
+.ticket-modal__container {
+  position: relative;
+  background-color: white;
+  width: 900px;
+  margin: 0 auto;
 }
 
+.model-header {
+  padding: 32px 16px;
+  background-color: #009689;
+}
+.model-header h2 {
+  margin: 10px 0px;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 4px;
+  font-size: 30px;
+  color: white;
+}
 
-/* CSS TOUR END */
+.model-header h2 i {
+  font-size: 30px;
+}
+
+.model-header__close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 8px 16px;
+  color: white;
+  font-size: 18px;
+}
+
+.model-header__close:hover {
+  background-color: #ccc;
+  color: black;
+}
+
+.model-content {
+  padding: 0px 16px;
+}
+
+div.model-content p {
+  margin: 15px 0px;
+}
+
+.model-content__input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  overflow: visible;
+  box-sizing: border-box;
+}
+
+.model-content__btn-pay {
+  margin: 16px 0px;
+  padding: 16px;
+  background-color: #009689;
+  color: white;
+  width: 100%;
+  text-transform: uppercase;
+  border: none;
+}
+.model-content__btn-pay:hover {
+  background-color: #ccc;
+  color: black;
+}
+
+.model-content__btn-close {
+  background-color: #f44336;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  margin-bottom: 16px;
+}
+
+.model-content__btn-close:hover {
+  background-color: #ccc;
+  color: black;
+}
+
+.model-content__support {
+  float: right;
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 0px !important;
+}
+
+/*CSS TICKET MODAL START*/
