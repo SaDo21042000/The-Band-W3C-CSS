@@ -10,16 +10,12 @@
   width: 100%;
   left: 0;
 }
+
 .nav {
   background-color: black;
   position: fixed;
   top: 0;
-  /*height: 100%;*/
   width: 100%;
-  /*position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;*/
 }
 
 .nav-father {
@@ -59,6 +55,7 @@
   height: 100%;
   padding: 12px 24px;
   display: inline-block;
+  font-size: 16px;
 }
 
 .nav-left__item:a {
@@ -90,7 +87,7 @@
 
 .nav-left__item-more {
   background: black;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 /*.nav-left__item-more:hover {
@@ -109,7 +106,7 @@
   display: none;
   position: absolute;
   background-color: grey;
-  left: 474px;
+  left: 470px;
   top: 48px;
   background-color: white;
 }
@@ -120,6 +117,7 @@
   padding: 12px 24px;
   text-transform: capitalize;
   text-decoration: none;
+  font-size: 16px;
 }
 
 .nav-left__item-drop-link:hover {
@@ -127,7 +125,7 @@
 }
 
 .nav-right {
-  height: 100%;
+  overflow: hidden;
 }
 
 .nav-right__search {
@@ -147,9 +145,40 @@
 }
 
 .content {
-  /*position: relative;*/
   width: 100%;
   /*display: none;*/
+}
+
+.slides {
+  /*position: relative;*/
+}
+
+.slides-item {
+  /*position: relative;*/
+ 
+}
+
+.slides-script {
+  position: absolute;
+  /*top: 350px;
+  right: 300px;
+  top: 87%;
+  left: 40%;*/
+  text-align: center;
+
+}
+
+.slides-script h3 {
+  color: white;
+  padding: 8px 16px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.slides-script p b {
+  color: white;
+  font-size: 15px;
+  line-height: 1.5;
 }
 
 .band-section {
@@ -314,6 +343,8 @@ div.tour__ticket-card-item-info button:only-of-type:hover {
 
 .tour__ticket-button-buy {
 }
+
+
 /* CSS TOUR END */
 
 /*CSS TICKET MODAL START*/
@@ -325,6 +356,7 @@ div.tour__ticket-card-item-info button:only-of-type:hover {
   height: 100%;
   width: 100%;
   padding-top: 100px;
+  display: none;
 }
 .ticket-modal__container {
   position: relative;
@@ -415,3 +447,152 @@ div.model-content p {
 }
 
 /*CSS TICKET MODAL START*/
+
+/* CSS CONTACT START */
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  width: 800px;
+  padding: 16px 64px;
+}
+
+.contact h2 {
+  letter-spacing: 4px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 10px 0px;
+}
+
+/* selector */
+div.contact p:nth-child(2) {
+  color: grey;
+  text-align: center;
+  font-style: italic;
+  padding: 16px 0px;
+}
+
+
+
+.contact-form {
+  display: flex;
+}
+
+.contact-form__item {
+  width: 50%;
+}
+
+.contact-form__example {
+
+}
+
+.contact-form__example ul li {
+  list-style-type: none;
+  padding: 4px 0px;
+  font-size: 18px;
+}
+ 
+
+.contact-form__main {
+
+}
+
+.contact-form__main div input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  
+}
+
+.contact-form__main input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  
+}
+
+.half-with {
+  width: 50%;
+  display: inline-block;
+  padding: 0px 8px;
+  box-sizing: border-box;
+}
+
+.contact-form__info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+div.contact-form__info div:nth-child(1) {
+  padding-right: 8px;
+}
+
+div.contact-form__info div:nth-child(2) {
+  padding-left: 8px;
+}
+
+
+.contact-form__info-item {
+  width: 100%;
+}
+
+.contact-form__main-message {
+  /*padding: 0px 8px;*/
+}
+
+.btn-submit-contact {
+  padding: 8px 16px;
+  color: white;
+  background-color: black;
+  float: right;
+  margin: 16px 0px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  border: none;
+}
+
+
+.btn-submit-contact:hover {
+  color: black;
+  background-color: #ccc;
+}
+/* CSS CONTACT START */
+
+.image-container image{
+  /*width: 100% !important;*/
+}
+
+.image-map {
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+  padding: 64px 16px;
+  font-size: 24px;
+  color: grey;
+}
+
+.footer p {
+  padding: 16px 0px;
+  color: grey;
+}
+
+.footer p a:link {
+  color: grey;
+}
+.footer p a:visited {
+  color: grey;
+}
+
+
+.footer i:hover {
+  color: #ccc;
+}
