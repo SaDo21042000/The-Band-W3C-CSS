@@ -91,10 +91,6 @@
   font-size: 16px;
 }
 
-.nav-left__item-drop {
-
-}
-
 .nav-left__item-drop:hover .nav-lef__item-drop-content {
   display: block;
 }
@@ -144,10 +140,6 @@
 .content {
   width: 100%;
   margin-top: 42px;
-}
-
-.slides {
-
 }
 
 .slides-item {
@@ -475,16 +467,10 @@ div.contact p:nth-child(2) {
   width: 50%;
 }
 
-.contact-form__example {
-}
-
 .contact-form__example ul li {
   list-style-type: none;
   padding: 4px 0px;
   font-size: 18px;
-}
-
-.contact-form__main {
 }
 
 .contact-form__main div input {
@@ -526,10 +512,6 @@ div.contact-form__info div:nth-child(2) {
   width: 100%;
 }
 
-.contact-form__main-message {
-  /*padding: 0px 8px;*/
-}
-
 .btn-submit-contact {
   padding: 8px 16px;
   color: white;
@@ -546,10 +528,6 @@ div.contact-form__info div:nth-child(2) {
   background-color: #ccc;
 }
 /* CSS CONTACT START */
-
-.image-container image {
-  /*width: 100% !important;*/
-}
 
 .image-map {
   width: 100%;
