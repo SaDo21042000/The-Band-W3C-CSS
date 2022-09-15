@@ -16,6 +16,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 3;
 }
 
 .nav-father {
@@ -90,12 +91,8 @@
   font-size: 16px;
 }
 
-/*.nav-left__item-more:hover {
-    background-color: #ccc;
-}*/
-
 .nav-left__item-drop {
-  /*display: block;*/
+
 }
 
 .nav-left__item-drop:hover .nav-lef__item-drop-content {
@@ -146,26 +143,23 @@
 
 .content {
   width: 100%;
-  /*display: none;*/
+  margin-top: 42px;
 }
 
 .slides {
-  /*position: relative;*/
+
 }
 
 .slides-item {
-  /*position: relative;*/
- 
+  position: relative;
 }
 
 .slides-script {
   position: absolute;
-  /*top: 350px;
-  right: 300px;
-  top: 87%;
-  left: 40%;*/
-  text-align: center;
 
+  top: 87%;
+  left: 40%;
+  text-align: center;
 }
 
 .slides-script h3 {
@@ -188,6 +182,7 @@
 
 .band-section__content {
   width: 800px;
+  padding: 64px 0px;
 }
 
 .band-section__title {
@@ -200,6 +195,7 @@
   font-style: italic;
   font-size: 15px;
   color: #bdb1b1;
+  padding: 15px 0px;
 }
 
 .band-section__script {
@@ -210,6 +206,9 @@
 
 .band-section__image {
   display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 50px;
 }
 
 .band-section__image-item {
@@ -220,6 +219,7 @@
 
 .band-section__image-item-text {
   text-align: center;
+  padding: 16px 0px;
 }
 
 .band-section__image-item-image {
@@ -287,7 +287,6 @@ div.tour p:only-of-type {
 }
 
 .tour__ticket-card {
-  /*background-color: white;*/
   display: flex;
 }
 
@@ -337,14 +336,6 @@ div.tour__ticket-card-item-info button:only-of-type:hover {
   color: black;
   border: none;
 }
-
-.tour-ticket__date {
-}
-
-.tour__ticket-button-buy {
-}
-
-
 /* CSS TOUR END */
 
 /*CSS TICKET MODAL START*/
@@ -456,7 +447,7 @@ div.model-content p {
 
 .contact {
   width: 800px;
-  padding: 16px 64px;
+  padding: 64px 16px;
 }
 
 .contact h2 {
@@ -476,8 +467,6 @@ div.contact p:nth-child(2) {
   padding: 16px 0px;
 }
 
-
-
 .contact-form {
   display: flex;
 }
@@ -487,7 +476,6 @@ div.contact p:nth-child(2) {
 }
 
 .contact-form__example {
-
 }
 
 .contact-form__example ul li {
@@ -495,10 +483,8 @@ div.contact p:nth-child(2) {
   padding: 4px 0px;
   font-size: 18px;
 }
- 
 
 .contact-form__main {
-
 }
 
 .contact-form__main div input {
@@ -506,7 +492,6 @@ div.contact p:nth-child(2) {
   padding: 8px;
   box-sizing: border-box;
   border: 1px solid #ccc;
-  
 }
 
 .contact-form__main input {
@@ -514,7 +499,6 @@ div.contact p:nth-child(2) {
   padding: 8px;
   box-sizing: border-box;
   border: 1px solid #ccc;
-  
 }
 
 .half-with {
@@ -538,7 +522,6 @@ div.contact-form__info div:nth-child(2) {
   padding-left: 8px;
 }
 
-
 .contact-form__info-item {
   width: 100%;
 }
@@ -558,14 +541,13 @@ div.contact-form__info div:nth-child(2) {
   border: none;
 }
 
-
 .btn-submit-contact:hover {
   color: black;
   background-color: #ccc;
 }
 /* CSS CONTACT START */
 
-.image-container image{
+.image-container image {
   /*width: 100% !important;*/
 }
 
@@ -591,7 +573,6 @@ div.contact-form__info div:nth-child(2) {
 .footer p a:visited {
   color: grey;
 }
-
 
 .footer i:hover {
   color: #ccc;
